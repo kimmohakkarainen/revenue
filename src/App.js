@@ -1,9 +1,6 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import Link from "@material-ui/core/Link";
-import ProTip from "./protip";
 import GraphView from "./graph";
 
 const data1 = {
@@ -27,9 +24,7 @@ const data1 = {
 export default function App() {
   return (
     <Container maxWidth="xl">
-      <Box my={4}>
-        <GraphView data={data1} />
-      </Box>
+      <GraphView data={data1} />
     </Container>
   );
 }
