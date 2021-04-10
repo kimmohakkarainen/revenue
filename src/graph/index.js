@@ -27,7 +27,7 @@ function calculateSankey(data, width, height) {
 }
 
 export default function GraphView({ data }) {
-  /* const colors = interpolateWarm; */
+  /* const colors = interpolateCool; */
   const colors = scaleOrdinal(schemeCategory10);
 
   const svgRef = useRef(null);
