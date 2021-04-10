@@ -36,7 +36,7 @@ export default function GraphView({ data }) {
   useLayoutEffect(() => {
     function updateSize() {
       setSize({
-        width: window.innerWidth - 200,
+        width: window.innerWidth - 50,
         height: window.innerHeight - 50
       });
     }
